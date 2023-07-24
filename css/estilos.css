@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+body {
+    margin: 0px 0px;
+}
+
+header {
+    background-color: rgb(199, 78, 78);
+    padding-bottom: 5px;
+}
+
+#gif-cronometro {
+    margin: 10px;
+    padding: 5px;
+    height: 130px;
+    position: relative;
+    top: -10px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    margin-left: 5em;
+    color: white;
+    position: relative;
+    margin-top: -2.5em;
+    font-weight: bold;
+}
+
+html, main {
+    font-family: 'Crimson Text', serif;
+    background-color: lightblue;
+}
+
+main {
+    margin-top: 2%;
+}
+
+#instrucoes, #cronometro {
+    background-color: rgba(255, 255, 255, 0.801);
+    height: 140px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#instrucoes p {
+    padding-top: 5px;
+}
+
+#cronometro:not(span) {
+    padding-top: 7em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#botoes {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255, 0.801);
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3em;
+    margin-bottom: 2em;
+    justify-content: space-around;
+    padding-top: 5%;
+    align-items: center;
+}
+
+#botoes button {
+    font-family: 'Crimson Text', serif;
+    height: 100px;
+    width: 280px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(33, 172, 38, 0.626);
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 80px;
+    width: 120px;
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    font-size: 60px;
+    margin: 8px;
+}
+
+.dois-pontos {
+    font-size: 70px;
+}
+
+#instrucoes p, #instrucoes ul li {
+    margin-left: 5%;
+    font-size: 35px;
+}
+
+.invisivel {
+    display: none;
+}
+
+@keyframes expandir {
+    from {
+        font-size: 30px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+
+.botao-hover:hover, #pausar:hover {
+    animation: expandir 0.5s forwards;
+    cursor: pointer;
+    transition: all 200ms ease-out;
+}
+
+#botoes button:active {
+    background-color: rgba(193, 218, 83, 0.801);
+    box-shadow: 8px 8px 8px black;
+}

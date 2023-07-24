@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="imgs/icone.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cronômetro</title>
+</head>
+
+<body>
+    <header>
+        <img src="imgs/cronometro.gif" id="gif-cronometro">
+        <h2>Cronômetro</h2>
+    </header>
+    <main>
+        <div id="instrucoes">
+            <p>Siga as instruções: </p>
+            <ul>
+                <li>Para iniciar, clique no botão "Iniciar".</li>
+                <li>Para pausar o cronômetro, clique no botão "Pausar".</li>
+                <li>Para começar o cronômetro do zero, clique no botão "Zerar".</li>
+            </ul>
+        </div>
+        <div id="cronometro">
+            <input id="horas" type="number" value="00" disabled>
+            <span class="dois-pontos">:</span>
+            <input id="minutos" type="number" value="00" disabled>
+            <span class="dois-pontos">:</span>
+            <input id="segundos" type="number" value="00" disabled>
+        </div>
+        <div id="botoes">
+            <button class="invisivel botao-hover" id="pausar">Pausar</button>
+            <button class="botao-hover" id="iniciar">Iniciar</button>
+            <button class="invisivel botao-hover" id="zerar">Zerar</button>
+        </div>
+    </main>
+    <script src="cronometro.js"></script>
+</body>
+
+</html>

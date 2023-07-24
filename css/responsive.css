@@ -1,0 +1,528 @@
+@media (min-width: 899px) and (max-width: 1202px) {
+    #instrucoes {
+        padding-bottom: 9.5%;
+    }
+
+    #instrucoes li {
+        margin-right: 0.5%;
+    }
+
+    button {
+        margin: 2%;
+    }
+}
+
+@media (min-width: 759px) and (max-width: 899px) {
+    #instrucoes {
+        padding-bottom: 11%;
+    }
+
+    #instrucoes li {
+        margin-right: 1%;
+    }
+
+    button {
+        margin: 3%;
+    }
+}
+
+@media (min-width: 696px) and (max-width: 759px) {
+    #instrucoes {
+        padding-bottom: 11rem;
+    }
+
+    #instrucoes li {
+        margin-right: 2%;
+    }
+
+    button {
+        margin: 2%;
+    }
+
+    #cronometro input {
+        width: 50%;
+    }
+
+    main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (min-width: 645px) and (max-width: 696px) {
+    #instrucoes {
+        padding-bottom: 9rem;
+    }
+
+    #cronometro input {
+        width: 50%;
+    }
+
+    button {
+        margin: 2%;
+    }
+}
+
+@media (min-width: 565px) and (max-width: 646px) {
+    #instrucoes {
+        padding-bottom: 9rem;
+    }
+
+    #cronometro input {
+        width: 47%;
+    }
+
+    #botoes button {
+        margin: 2%;
+    }
+
+    #instrucoes li {
+        margin-right: 2%;
+    }
+
+    header h2 {
+        margin-left: 12rem;
+    }
+
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media (min-width: 496px) and (max-width: 565px) {
+    #instrucoes {
+        padding-bottom: 14rem;
+    }
+
+    #cronometro input {
+        width: 48%;
+    }
+
+    #botoes button {
+        margin: 2%;
+    }
+
+    header h2 {
+        margin-left: 11rem;
+    }
+}
+
+@media (min-width: 487px) and (max-width: 496px) {
+    #instrucoes {
+        padding-bottom: 32%;
+    }
+
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    input {
+        width: 46%;
+    }
+
+    #instrucoes li {
+        margin-right: 0.6%;
+    }
+
+    #botoes button {
+        margin: 2%;
+    }
+
+    header h2 {
+        margin-left: 35%;
+    }
+}
+
+
+@media (min-width: 460px) and (max-width: 487px) {
+    #instrucoes {
+        padding-bottom: 38%;
+    }
+
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    input {
+        width: 50%;
+    }
+
+    header h2 {
+        margin-left: 40%;
+    }
+
+    #botoes button {
+        margin: 2%;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 460px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 9.5%;
+        margin-right: 9.5%;
+    }
+
+    header h2 {
+        margin-left: 38%;
+    }
+
+    #instrucoes {
+        padding-bottom: 38%;
+    }
+
+    input {
+        width: 45%;
+    }
+
+    #botoes button {
+        margin: 3%;
+    }
+}
+
+@media (min-width: 424px) and (max-width: 440px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+
+    #instrucoes {
+        padding-bottom: 40%;
+    }
+
+    header h2 {
+        margin-left: 37%;
+    }
+
+    input {
+        width: 44%;
+    }
+
+    #botoes button {
+        margin: 3.5%;
+    }
+}
+
+@media (max-width: 424px) {
+    header h2 {
+        display: none;
+    }
+    header #gif-cronometro {
+        margin: auto;
+        display: block;
+        padding-top: 6.5%;
+        height: 10%;
+        width: 38%;        
+    }
+}
+
+@media (min-width: 390px) and (max-width: 424px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+
+    #instrucoes {
+        padding-bottom: 55%;
+    }
+
+    header h2 {
+        margin-left: 35.5%;
+    }
+
+    input {
+        width: 44%;
+    }
+
+    #botoes button {
+        margin: 3%;
+    }
+}
+
+@media (min-width: 348px) and (max-width: 390px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    #instrucoes {
+        padding-bottom: 65%;
+    }
+
+    #cronometro {
+        padding-bottom: 4%;
+    }
+
+    #cronometro input {
+        width: 45%;
+    }
+
+    #botoes button {
+        margin: 2.5%;
+    }
+}
+
+@media (min-width: 340px) and (max-width: 348px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    #instrucoes {
+        padding-bottom: 65%;
+    }
+
+    #cronometro {
+        padding-bottom: 4%;
+    }
+
+    #cronometro input {
+        width: 40%;
+    }
+
+    #botoes button {
+        margin: 2.5%;
+    }
+}
+
+@media (min-width: 336px) and (max-width: 340px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 6.5%;
+        margin-right: 6.5%;
+    }
+
+    #instrucoes {
+        padding-bottom: 69%;
+    }
+
+    #cronometro input {
+        width: 40%;
+    }
+
+    #cronometro {
+        padding-bottom: 3.5%;
+    }
+
+    #botoes button {
+        margin: 2.2%;
+    }
+}
+
+@media (min-width: 328px) and (max-width: 336px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 5.5%;
+        margin-right: 5.5%;
+    }
+
+    #instrucoes {
+        padding-bottom: 69%;
+    }
+
+    #cronometro input {
+        width: 35%;
+    }
+
+    #cronometro {
+        padding-bottom: 3%;
+    }
+
+    #botoes button {
+        margin: 3%;
+    }
+}
+
+@media (min-width: 317px) and (max-width: 328px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 5.5%;
+        margin-right: 5.5%;
+    }
+
+    #instrucoes {
+        padding-bottom: 85%;
+    }
+
+    #cronometro {
+        padding-bottom: 5%;
+    }
+
+    #cronometro input {
+        width: 32%;
+    }
+
+    #botoes button {
+        margin: 3.5%;
+    }
+}
+
+@media (min-width: 307px) and (max-width: 317px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    #instrucoes {
+        padding-bottom: 87%;
+    }
+
+    #cronometro input {
+        width: 30%;
+    }
+
+    #cronometro {
+        padding-bottom: 7.5%;
+    }
+
+    #botoes button {
+        margin: 2.5%;
+    }
+} 
+
+@media (min-width: 303px) and (max-width: 307px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-right: 3.5%;
+        margin-left: 3.5%;
+    }
+
+    #instrucoes {
+        padding-bottom: 89%;
+    }
+
+    #cronometro {
+        padding-bottom: 7%;
+    }
+
+    #cronometro input {
+        width: 28%;
+    }
+
+    #botoes button {
+        margin: 2%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 303px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #instrucoes {
+        padding-bottom: 92%;
+    }
+
+    #botoes {
+        padding-bottom: 25%;
+    }
+
+    #cronometro input {
+        width: 25%;
+    }
+
+    #botoes button {
+        margin: 3%;
+    }
+
+    #cronometro {
+        padding-bottom: 7%;
+    }
+}
+
+@media (min-width: 261px) and (max-width: 300px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+
+    #instrucoes {
+        padding-bottom: 50vh;
+    }
+
+    #cronometro input {
+        width: 23%;
+        font-size: 55px;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+
+    #cronometro {
+        padding-bottom: 6.5%;
+    }
+
+    #botoes button {
+        margin: 3%;
+    }
+}
+
+@media (min-width: 257px) and (max-width: 261px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    #instrucoes {
+        padding-bottom: 51vh;
+    }
+
+    #cronometro {
+        padding-bottom: 6%;
+    }
+
+    #cronometro input {
+        width: 20%;
+        font-size: 46px;
+    }
+
+    #botoes button {
+        margin: 3%;
+    }
+}
+
+@media (min-width: 251px) and (max-width: 257px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    
+    #instrucoes {
+        padding-bottom: 55vh;
+    }
+
+    #cronometro {
+        padding-bottom: 8%;
+    }
+
+    #cronometro input {
+        width: 19%;
+        font-size: 43px;
+    }
+
+    #botoes button {
+        margin: 2%;
+    }
+}
+
+@media (min-width: 249px) and (max-width: 251px) {
+    #instrucoes, #cronometro, #botoes {
+        margin-left: 2.25%;
+        margin-right: 2.25%;
+    }
+
+    #instrucoes {
+        padding-bottom: 62vh;
+    }
+
+    #cronometro input {
+        width: 18%;
+        font-size: 40px;
+    }
+
+    #cronometro {
+        padding-bottom: 6.5%;
+    }
+
+    #botoes button {
+        margin: 2.5%;
+    }
+}
